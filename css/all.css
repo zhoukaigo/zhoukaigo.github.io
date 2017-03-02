@@ -189,12 +189,13 @@ h4,
 h5,
 h6 {
 	margin-top: 0;
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
 	font-weight: 400;
 	font-weight: normal;
 	color: #151515;
 }
 h2 {
+	
 	text-transform: uppercase;
 	font-style: normal;
 	font-weight: 400;
@@ -254,6 +255,15 @@ a:visited,
 a:link {
 	color: #151515;
 	text-decoration: none;
+	/*cursor: crosshair;*/
+	/*border-bottom: 1px dashed orange;*/
+}
+p a,p a:hover,p a:active,p a:focus,p a:visited,p a:link
+ {
+	color: #930ee4;
+	text-decoration: none;
+	cursor: crosshair;
+	border-bottom: 1px dashed orange;
 }
 [class*="col-"] {
 	padding-top: 15px;
